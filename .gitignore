@@ -1,2 +1,4 @@
 *.pdf
 *.pptx
+out/
+.DS_Store
