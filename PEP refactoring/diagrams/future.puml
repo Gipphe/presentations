@@ -1,0 +1,46 @@
+@startuml Future
+
+skinparam componentStyle rectangle
+
+package "common.model.pep" {
+	[Pep]
+}
+
+package "Rest of the backend" {
+	[Other]
+}
+package "services.pep" {
+	[PepCaching]
+	[PepService]
+	package "roaring" {
+		[RoaringGlobalPep]
+		[RoaringNordicPep]
+		[RoaringGlobalApi]
+		[RoaringNordicApi]
+	}
+	package "sayari" {
+		[SayariGlobalApi]
+		[SayariGlobalPep]
+	}
+}
+
+Other --> PepService
+Other --> Pep
+
+PepService --> Pep
+PepCaching --> Pep
+PepCaching <-- PepService
+
+PepService --> RoaringNordicApi
+PepService --> RoaringGlobalApi
+PepService --> SayariGlobalApi
+
+RoaringNordicApi --> RoaringNordicPep
+RoaringGlobalApi --> RoaringGlobalPep
+SayariGlobalApi --> SayariGlobalPep
+
+Pep <-- RoaringGlobalPep
+Pep <-- RoaringNordicPep
+Pep <-- SayariGlobalPep
+
+@enduml

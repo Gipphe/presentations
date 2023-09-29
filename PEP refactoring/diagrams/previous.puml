@@ -1,0 +1,29 @@
+@startuml Previous
+
+skinparam componentStyle rectangle
+
+package "common.model.pep" {
+	[RoaringPepPerson] as Pep
+}
+
+package "Rest of the backend" {
+	[Other]
+}
+
+package "services.integrations.roaring" {
+	[RoaringPepCaching] as PepCaching
+	[RoaringPepService] as PepService
+	[RoaringGlobalPep]
+}
+
+Other --> PepService
+Other --> Pep
+
+PepCaching --> Pep
+PepService --> Pep
+PepService --> PepCaching
+PepService --> RoaringGlobalPep
+
+RoaringGlobalPep -> Pep
+
+@enduml
