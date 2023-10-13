@@ -1,0 +1,26 @@
+@startuml authorization_code
+
+autoactivate on
+
+participant User as Browser
+participant App as Client
+participant Auth0 as Tenant
+
+Browser -> Client : Go to login screen
+return Redirect to login screen
+Browser -> Tenant : Redirected
+Tenant -> Browser : Credentials plz
+return Type in credentials
+opt MFA is enabled
+	Tenant -> Browser : MFA plz
+	return Complete MFA
+end
+return Goto callback URL (with auth code)
+Browser -> Client : Redirected to callback URL
+Client -> Client : Get auth code from query param
+Client -> Tenant : Auth code + client credentials
+return Access token, identity token and refresh token
+return Got the tokens
+return Tokens
+
+@enduml
