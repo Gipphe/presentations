@@ -1,4 +1,4 @@
-@startuml Future
+@startuml future
 
 skinparam componentStyle rectangle
 

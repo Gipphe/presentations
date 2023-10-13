@@ -1,4 +1,4 @@
-@startuml Current
+@startuml current
 
 skinparam componentStyle rectangle
 

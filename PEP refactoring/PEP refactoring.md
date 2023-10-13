@@ -17,7 +17,7 @@ style: |
 
 ## Current situation
 
-![bg opacity:0.6](./spaghetti.jpg)
+![bg opacity:0.6](./img/spaghetti.jpg)
 
 ---
 
@@ -53,8 +53,22 @@ style: |
 
 ## There is a way
 
-![bg opacity:0.6](./lasagna.jpg)
+![bg opacity:0.6](./img/lasagna.jpg)
 
 ---
 
 ## Layers of abstraction
+
+![](./diagrams/out/previous.png)
+
+---
+
+## Layers of abstraction
+
+![](./diagrams/out/current.png)
+
+---
+
+## Layers of abstraction
+
+![](./diagrams/out/future.png)

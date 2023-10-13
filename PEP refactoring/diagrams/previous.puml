@@ -1,4 +1,4 @@
-@startuml Previous
+@startuml previous
 
 skinparam componentStyle rectangle
 
@@ -22,8 +22,8 @@ Other --> Pep
 PepCaching --> Pep
 PepService --> Pep
 PepService --> PepCaching
-PepService --> RoaringGlobalPep
+PepService -> RoaringGlobalPep
 
-RoaringGlobalPep -> Pep
+Pep <- RoaringGlobalPep
 
 @enduml
