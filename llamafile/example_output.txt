@@ -1,0 +1,24 @@
+Rename llava-main.llamafile and mistral-main.llamafile to lava-main.llamafile and mistral-main.llamafile respectively
+
+The changes in this git diff are:
+
+* Added a new line to the script to download and install LLaVA llamafile.
+* Changed the path of the llava llamafile from `./llava-main.llamafile` to `llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-q4-main.llamafile`.
+* Changed the path of the mistral llamafile from `mistral-7b.llamafile` to `mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile`.
+
+`git_commit.sh`:
+The changes in this git file diff are:
+
+* Changed the shebang line from `#!/bin/bash` to `#!/bin/bash` and added a new shebang line for `llava` and `mistral`.
+* Added a new function `sed` to check if `sed` or `gsed` is in the PATH.
+* Changed the `llava()` function to use the `cat` command instead of hardcoding the prompt.
+* Added a new function `mistral()` that uses `sed` for formatting the output.
+* Changed the `diff_summary()`, `diff_description()`, and `file_description()` functions to use the `sed` command for formatting the output.
+* Removed the `--dry-run` option from the commit message.
+
+`llamafile.md`:
+The changes in this git file diff are:
+
+* Added a line to download LLaVA llamafile using the command `curl -Lo llava-main.llamafile https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-q4-main.llamafile`
+* Removed the line to download llava llamafile using the command `curl -Lo llava-main.llamafile https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-q4-main.llamafile`
+* Updated the command to download Mistral llamafile to use the latest version `mistral-7b-instruct-v0.1-Q4_K_M-main.llamafile`

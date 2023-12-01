@@ -4,3 +4,8 @@ out/
 .DS_Store
 node_modules/
 .env
+*.llamafile
+*.llamafile.exe
+*.gguf
+*.log
+*/llamafile
