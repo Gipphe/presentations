@@ -15,7 +15,6 @@ expires_in: jsonpath "$.expires_in"
 variable "expires_in" > 0
 variable "token" exists
 variable "token" != ""
-## adjfhsdflojslkfgj
 
 
 GET https://mito.eu.auth0.com/api/v2/users
