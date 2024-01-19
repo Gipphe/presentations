@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run -it --rm -v $(pwd):/src -w /src marpteam/marp-cli:latest **/*.md --pptx --allow-local-files
+./export-diagrams.sh
+docker run -it --rm -v $(pwd):/src -w /src marpteam/marp-cli:latest --output ./out -I . --pptx

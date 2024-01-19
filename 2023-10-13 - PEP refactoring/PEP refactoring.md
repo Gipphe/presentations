@@ -17,7 +17,7 @@ style: |
 
 ## Current situation
 
-![bg opacity:0.6](./img/spaghetti.jpg)
+![bg opacity:0.6](https://github.com/Gipphe/presentations/blob/main/2023-10-13%20-%20OPEP%20refactoring/img/spaghetti.jpg?raw=true)
 
 ---
 
@@ -53,22 +53,22 @@ style: |
 
 ## There is a way
 
-![bg opacity:0.6](./img/lasagna.jpg)
+![bg opacity:0.6](https://github.com/Gipphe/presentations/blob/main/2023-10-13%20-%20OPEP%20refactoring/img/lasagna.jpg?raw=true)
 
 ---
 
 ## Layers of abstraction
 
-![](./diagrams/out/previous.png)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-13%20-%20OPEP%20refactoring/diagrams/out/previous.png?raw=true)
 
 ---
 
 ## Layers of abstraction
 
-![](./diagrams/out/current.png)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-13%20-%20OPEP%20refactoring/diagrams/out/current.png?raw=true)
 
 ---
 
 ## Layers of abstraction
 
-![](./diagrams/out/future.png)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-13%20-%20OPEP%20refactoring/diagrams/out/future.png?raw=true)

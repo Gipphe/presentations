@@ -12,7 +12,7 @@ marp: true
 
 > Goodbye, context switching. Hello, terminal.
 
-![](./img/ghcli.png)
+![](https://github.com/Gipphe/presentations/blob/main/2023-12-08%20-%20Misc%20tools/img/ghcli.png?raw=true)
 
 ### Pros
 
@@ -27,6 +27,7 @@ marp: true
 
 ## ![height:100px](https://hurl.dev/assets/img/logo-light.svg)
 
+![height:400px](https://github.com/Gipphe/presentations/blob/main/2023-12-08%20-%20Misc%20tools/img/hurl.png?raw=true)
 ![height:400px](./img/hurl.png)
 
 ---

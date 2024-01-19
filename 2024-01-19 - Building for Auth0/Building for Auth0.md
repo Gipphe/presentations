@@ -70,7 +70,7 @@ style: |
 
 ---
 
-![bg center height:500px](./img/millions-in-the-making.png)
+![bg center height:500px](https://github.com/Gipphe/presentations/blob/main/2024-01-19%20-%20Building%20for%20Auth0/img/millions-in-the-making.png?raw=true)
 
 ---
 
@@ -318,7 +318,7 @@ Auth0: what are unit tests again?
   - Write to a new file
   - Import the new file in your test
 
-![](./img/eval.png)
+![](https://github.com/Gipphe/presentations/blob/main/2024-01-19%20-%20Building%20for%20Auth0/img/eval.png?raw=true)
 > _&#45; [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)_
 
 ---

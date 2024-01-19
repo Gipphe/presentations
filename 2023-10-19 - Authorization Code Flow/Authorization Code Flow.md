@@ -61,7 +61,7 @@ marp: true
 
 ## Visualized
 
-![](./diagrams/out/authorization_code.png)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/authorization_code.png?raw=true)
 
 ---
 
@@ -71,64 +71,64 @@ marp: true
 
 ## You (user) and web page (client)
 
-![](./img/you_and_client.webp)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/you_and_client.webp?raw=true)
 
 ---
 
 ## Auth0 (tenant)
 
-![](./img/auth0.webp)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/auth0.webp?raw=true)
 
 ---
 
 ## You give your credentials to Auth0
 
-![](./img/whispering.jpg)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/whispering.jpg?raw=true)
 
 ---
 
 ## Auth0 checks your credentials
 
-![](./img/typing.jpg)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/typing.jpg?raw=true)
 
 ---
 
 ## Credentials check out
 
-![](./img/allgood.jpg)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/allgood.jpg?raw=true)
 
 ---
 
 ## Auth0 returns Authorization code to client
 
-![](./img/secret-code.jpg)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/secret-code.jpg?raw=true)
 
 ---
 
 ## Client exchanges Auth code for tokens behind the scenes
 
-![](./img/got-more-tokens.jpg)
+![](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/got-more-tokens.jpg?raw=true)
 
 ---
 
 ## Heading over to the API
 
-![height:600px](./img/running.jpg)
+![height:600px](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/running.jpg?raw=true)
 
 ---
 
 ## The API you want to use (resource server)
 
-![height:600px](./img/secure.jpg)
+![height:600px](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/secure.jpg?raw=true)
 
 ---
 
 ## Use the access token received from Auth0
 
-![height:600px](./img/access-token.jpg)
+![height:600px](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/access-token.jpg?raw=true)
 
 ---
 
 ## You're in
 
-![height:600px](./img/dog-doggo.png)
+![height:600px](https://github.com/Gipphe/presentations/blob/main/2023-10-19%20-%20OAuthorization%20Code%20Flow/img/dog-doggo.png?raw=true)

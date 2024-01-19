@@ -10,12 +10,13 @@ marp: true
 
 ## 3 types of tokens
 
-![](./img/bring-it-on-kuzco.gif)
+![](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/bring-it-on-kuzco.gif?raw=true)
 
 ---
 
 ## Access token
 
+![bg right](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/gate.jpg?raw=true)
 ![bg right](./img/gate.jpg)
 
 - All flows
@@ -30,7 +31,7 @@ marp: true
 
 ## Identity token
 
-![bg right contain](./img/passport.jpg)
+![bg right contain](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/passport.jpg?raw=true)
 
 - User flows only
   - Authorization code flow
@@ -46,7 +47,7 @@ marp: true
 
 ## Refresh token
 
-![bg right contain](./img/refresh_tokens.jpg)
+![bg right contain](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/refresh_tokens.jpg?raw=true)
 
 - User flows only\*
   - Authorization code flow
@@ -59,7 +60,7 @@ marp: true
 
 ## Demo time
 
-![](./img/NH9FsJ9.gif)
+![](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/NH9FsJ9.gif?raw=true)
 
 ---
 
