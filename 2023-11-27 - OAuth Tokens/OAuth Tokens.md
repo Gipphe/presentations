@@ -17,7 +17,6 @@ marp: true
 ## Access token
 
 ![bg right](https://github.com/Gipphe/presentations/blob/main/2023-11-27%20-%20OAuth%20Tokens/img/gate.jpg?raw=true)
-![bg right](./img/gate.jpg)
 
 - All flows
 - "Proof" of access
