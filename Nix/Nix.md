@@ -100,6 +100,8 @@ _* 10% of it is at least_
 > 3. Install dependencies in all apps and libs: `pnpm install`
 >    - This will also run the `postinstall` script, which compiles all
 >      translations from `.po` files to `.ts` files.
+>
+> &mdash; Milkyway repo README
 
 ---
 
