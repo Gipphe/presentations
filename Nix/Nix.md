@@ -73,6 +73,11 @@ _* 10% of it is at least_
 
 ## Nix is many things
 
+- ~~Build system~~
+- ~~Configuration tool~~
+- ~~Package manager~~
+- Developer environment manager
+
 ![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
 
 ---
