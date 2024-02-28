@@ -1,5 +1,9 @@
 ---
 marp: true
+style: |
+  section.top-aligned {
+    justify-content: flex-start;
+  }
 ---
 
 # Nix
@@ -21,15 +25,32 @@ marp: true
 
 ---
 
-## What
+<!-- _class: top-aligned -->
 
-Similar to
+## Similar to
 
 ---
 
-## What
+<!-- _class: top-aligned -->
 
-Similar to
+## Similar to
+
+- Poetry
+
+---
+
+<!-- _class: top-aligned -->
+
+## Similar to
+
+- Poetry
+- nvm
+
+---
+
+<!-- _class: top-aligned -->
+
+## Similar to
 
 - Poetry
 - nvm
@@ -37,29 +58,9 @@ Similar to
 
 ---
 
-## What
+<!-- _class: top-aligned -->
 
-Similar to
-
-- Poetry
-- nvm
-- asdf
-
----
-
-## What
-
-Similar to
-
-- Poetry
-- nvm
-- asdf
-
----
-
-## What
-
-Similar* to
+## Similar to*
 
 - Poetry
 - nvm
@@ -70,6 +71,12 @@ _* 10% of it is at least_
 
 ---
 
+## Nix is many things
+
+![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
+
+---
+
 ## Why
 
 > has anyone been struggling with Java recently? I’m having issues to build
@@ -77,10 +84,17 @@ _* 10% of it is at least_
 >
 > &mdash; [Adrian](https://strise.slack.com/archives/C05V95CPJNS/p1709107078009879)
 
-[Nix plugin]: https://plugins.jetbrains.com/plugin/8607-nixidea
-[direnv plugin]: https://plugins.jetbrains.com/plugin/15285-direnv-integration
-[Nix extension pack]: https://marketplace.visualstudio.com/items?itemName=pinage404.nix-extension-pack
-[Open VSX link]: https://open-vsx.org/extension/pinage404/nix-extension-pack
+---
+
+## Why
+
+> ## 🚀 Setup
+>
+> 1. Install [Node 20](https://nodejs.org/en/)
+> 2. Install the package manager PNPM: `npm i -g pnpm@8.10`
+> 3. Install dependencies in all apps and libs: `pnpm install`
+>    - This will also run the `postinstall` script, which compiles all
+>      translations from `.po` files to `.ts` files.
 
 ---
 
@@ -102,3 +116,8 @@ _* 10% of it is at least_
 
 - Vim/Neovim
   - You're already in the terminal.
+
+[Nix plugin]: https://plugins.jetbrains.com/plugin/8607-nixidea
+[direnv plugin]: https://plugins.jetbrains.com/plugin/15285-direnv-integration
+[Nix extension pack]: https://marketplace.visualstudio.com/items?itemName=pinage404.nix-extension-pack
+[Open VSX link]: https://open-vsx.org/extension/pinage404/nix-extension-pack
