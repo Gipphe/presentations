@@ -10,7 +10,7 @@ style: |
 
 ---
 
-## Problem
+## Friction
 
 ---
 
@@ -37,7 +37,7 @@ style: |
 
 ---
 
-## Onboarding
+### Onboarding
 
 - New hire
 - Wants to work on `mito`
@@ -74,25 +74,11 @@ style: |
 
 ---
 
-## That was a lot...
+### That was a lot...
 
 ---
 
 ## Nix
-
-> A package manager
-
----
-
-### What
-
-> Nix is a powerful package manager for Linux and other Unix systems that makes
-> package management reliable and reproducible. It provides **atomic upgrades**
-> and rollbacks, side-by-side installation of **multiple versions of a
-> package**, multi-user package management and easy setup of build
-> environments.
->
-> &mdash; Copilot
 
 ---
 
@@ -103,6 +89,44 @@ style: |
 >
 > &mdash; ChatGPT, when prompted with "Describe Nix in 4 short sentences like a
 > caveman."
+
+---
+
+### Language agnostic
+
+---
+
+### nixpkgs
+
+- Largest repository
+- 80 000+ packages
+- Good resources for adding new packages
+
+![bg contain right](https://repology.org/graph/map_repo_size_fresh.svg)
+
+---
+
+## Nix is many things
+
+- Build system
+- Configuration tool
+- Package manager
+- Dev env manager
+- etc.
+
+<!-- ![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true) -->
+
+---
+
+## Nix is many things
+
+- ~~Build system~~
+- ~~Configuration tool~~
+- ~~Package manager~~
+- Dev env manager
+- ~~etc.~~
+
+![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
 
 ---
 
@@ -126,43 +150,9 @@ _\* 10% of it is at least_
 
 ---
 
-### Language agnostic
-
----
-
-### Largest package repository
-
-80 000+ packages
-
-![bg contain right](https://repology.org/graph/map_repo_size_fresh.svg)
-
----
-
-## Nix is many things
-
-- Build system
-- Configuration tool
-- Package manager
-- Dev env manager
-- etc.
-
-![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
-
----
-
-## Nix is many things
-
-- ~~Build system~~
-- ~~Configuration tool~~
-- ~~Package manager~~
-- Dev env manager
-- ~~etc.~~
-
-![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
-
----
-
 ## Demo
+
+![bg right contain](https://i.pinimg.com/originals/c9/fb/e2/c9fbe25974eb890e3b4fc88387dd0a07.gif)
 
 ---
 
@@ -211,6 +201,44 @@ _\* 10% of it is at least_
     - Update
     - Restart IDEA
     - IDEA finds new Java/Scala based on `JAVA_HOME`/`SCALA_HOME`
+
+---
+
+## Configure IDE through Nix
+
+```nix
+outputs = {...}: {
+  devShells = {
+    idea = pkgs.mkShell {
+      packages = [pkgs.jetbrains.idea-ultimate];
+    };
+    vscode = pkgs.mkShell {
+      packages = [pkgs.vscode-fhs pkgs.vscode-extensions.mkhl.direnv];
+    };
+  };
+}
+```
+
+```sh
+nix develop .#vscode
+# or
+nix develop .#idea
+```
+
+---
+
+## Alternative: Nix profiles
+
+- User environment\*
+- Not repo-specific\*
+- Not shareable
+
+```sh
+nix profile install nixpkgs#temurin-bin-17
+nix profile install nixpkgs#scala_2_12
+nix profile install nixpkgs#node_20
+nix profile install nixpkgs#nodePackages.pnpm
+```
 
 ---
 
