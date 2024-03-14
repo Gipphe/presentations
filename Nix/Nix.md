@@ -6,27 +6,43 @@ style: |
   }
 ---
 
-# Developer environment as code
-
-> "Just the tip" of Nix
+# Development environment as code
 
 ---
 
----
-
-## New hire
+## Problem
 
 ---
 
-## Wants to work on `mito`
+### Flaky setups
+
+> has anyone been struggling with Java recently? I’m having issues to build
+> mito on my M1
+>
+> &mdash; [Adrian](https://strise.slack.com/archives/C05V95CPJNS/p1709107078009879)
 
 ---
 
-## Has to set up environment
+### Manual setup steps
+
+> ## 🚀 Setup
+>
+> 1. Install [Node 20](https://nodejs.org/en/)
+> 2. Install the package manager PNPM: `npm i -g pnpm@8.10`
+> 3. Install dependencies in all apps and libs: `pnpm install`
+>    - This will also run the `postinstall` script, which compiles all
+>      translations from `.po` files to `.ts` files.
+>
+> &mdash; Milkyway repo README
 
 ---
 
-## Finds the doc
+## Onboarding
+
+- New hire
+- Wants to work on `mito`
+- Has to set up environment
+- Finds the doc
 
 ---
 
@@ -58,18 +74,39 @@ style: |
 
 ---
 
-## What
+## That was a lot...
+
+---
+
+## Nix
+
+> A package manager
+
+---
+
+### What
 
 > Nix is a powerful package manager for Linux and other Unix systems that makes
-> package management reliable and reproducible. It provides **atomic upgrades** and
-> rollbacks, side-by-side installation of **multiple versions of a package**,
-> multi-user package management and easy setup of build environments.
+> package management reliable and reproducible. It provides **atomic upgrades**
+> and rollbacks, side-by-side installation of **multiple versions of a
+> package**, multi-user package management and easy setup of build
+> environments.
 >
 > &mdash; Copilot
 
 ---
 
-## Similar to\*
+### What
+
+> Nix tool. Make software handle easy. No break old, when new come. Fix, build,
+> share, all in cave-safe way.
+>
+> &mdash; ChatGPT, when prompted with "Describe Nix in 4 short sentences like a
+> caveman."
+
+---
+
+### Similar to\*
 
 - Poetry
   - Virtual envs
@@ -89,13 +126,15 @@ _\* 10% of it is at least_
 
 ---
 
-## Language agnostic
+### Language agnostic
 
 ---
 
-## Largest package repository
+### Largest package repository
 
 80 000+ packages
+
+![bg contain right](https://repology.org/graph/map_repo_size_fresh.svg)
 
 ---
 
@@ -104,7 +143,7 @@ _\* 10% of it is at least_
 - Build system
 - Configuration tool
 - Package manager
-- Developer environment manager
+- Dev env manager
 - etc.
 
 ![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
@@ -116,37 +155,10 @@ _\* 10% of it is at least_
 - ~~Build system~~
 - ~~Configuration tool~~
 - ~~Package manager~~
-- Developer environment manager
+- Dev env manager
 - ~~etc.~~
 
 ![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
-
----
-
-## Why
-
----
-
-### Flaky setups
-
-> has anyone been struggling with Java recently? I’m having issues to build
-> mito on my M1
->
-> &mdash; [Adrian](https://strise.slack.com/archives/C05V95CPJNS/p1709107078009879)
-
----
-
-### Manual setup steps
-
-> ## 🚀 Setup
->
-> 1. Install [Node 20](https://nodejs.org/en/)
-> 2. Install the package manager PNPM: `npm i -g pnpm@8.10`
-> 3. Install dependencies in all apps and libs: `pnpm install`
->    - This will also run the `postinstall` script, which compiles all
->      translations from `.po` files to `.ts` files.
->
-> &mdash; Milkyway repo README
 
 ---
 
@@ -161,7 +173,6 @@ _\* 10% of it is at least_
 ### Visual Studio Code
 
 - [Nix extension pack]
-  ([Open VSX link])
 - [Direnv VSCode plugin]
 
 ---
@@ -209,11 +220,10 @@ _\* 10% of it is at least_
 - Ensures consistency between developers
 - Opt-in
   - Without `direnv` and `nix`, `flake.nix` does nothing
-- IntelliJ is weird
+- ~~IDEA is weird~~
 
 [Nix plugin]: https://plugins.jetbrains.com/plugin/8607-nixidea
 [direnv plugin]: https://plugins.jetbrains.com/plugin/15285-direnv-integration
 [Nix extension pack]: https://marketplace.visualstudio.com/items?itemName=pinage404.nix-extension-pack
-[Open VSX link]: https://open-vsx.org/extension/pinage404/nix-extension-pack
 [Direnv VSCode plugin]: https://marketplace.visualstudio.com/items?itemName=mkhl.direnv
 [Better direnv plugin]: https://plugins.jetbrains.com/plugin/19275-better-direnv
