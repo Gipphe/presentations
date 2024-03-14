@@ -139,7 +139,12 @@ _\* 10% of it is at least_
   - Can only load env vars
 - ~~[Better direnv plugin]~~
   - Doesn't work
-    ![bg right contain](https://i.kym-cdn.com/photos/images/newsfeed/001/485/098/245.gif)
+- Have to run it from command line
+  - `JAVA_HOME`
+  - `SCALA_HOME`
+  - `idea .`
+
+![bg right contain](https://i.kym-cdn.com/photos/images/newsfeed/001/485/098/245.gif)
 
 ---
 
