@@ -12,6 +12,52 @@ style: |
 
 ---
 
+---
+
+## New hire
+
+---
+
+## Wants to work on `mito`
+
+---
+
+## Has to set up environment
+
+---
+
+## Finds the doc
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_1.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_2.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_3.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_4.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_5.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_6.png?raw=true)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_7.png?raw=true)
+
+---
+
 ## What
 
 > Nix is a powerful package manager for Linux and other Unix systems that makes
@@ -81,9 +127,7 @@ _\* 10% of it is at least_
 
 ---
 
-<!-- _class: top-aligned -->
-
-## Flaky setups
+### Flaky setups
 
 > has anyone been struggling with Java recently? I’m having issues to build
 > mito on my M1
@@ -92,9 +136,7 @@ _\* 10% of it is at least_
 
 ---
 
-<!-- _class: top-aligned -->
-
-## Manual setup steps
+### Manual setup steps
 
 > ## 🚀 Setup
 >
@@ -116,7 +158,7 @@ _\* 10% of it is at least_
 
 ---
 
-### VS Code
+### Visual Studio Code
 
 - [Nix extension pack]
   ([Open VSX link])
@@ -128,6 +170,7 @@ _\* 10% of it is at least_
 
 - You're already in the terminal.
 - Regular `direnv` and `nix` will do.
+- `vim .` or `nvim .`
 
 ---
 
@@ -139,18 +182,33 @@ _\* 10% of it is at least_
   - Can only load env vars
 - ~~[Better direnv plugin]~~
   - Doesn't work
+
+![bg right contain](https://i.kym-cdn.com/photos/images/newsfeed/001/485/098/245.gif)
+
+---
+
+### IntelliJ IDEA
+
 - Have to run it from command line
   - `JAVA_HOME`
   - `SCALA_HOME`
   - `idea .`
-
-![bg right contain](https://i.kym-cdn.com/photos/images/newsfeed/001/485/098/245.gif)
+    - Only required when setting new version
+    - Automatic detection
+  - Update to Scala or Java a bit manual
+    - Remove existing SDK
+    - Update
+    - Restart IDEA
+    - IDEA finds new Java/Scala based on `JAVA_HOME`/`SCALA_HOME`
 
 ---
 
 ## Conclusion
 
 - Simplifies dependency and SDK handling
+- Ensures consistency between developers
+- Opt-in
+  - Without `direnv` and `nix`, `flake.nix` does nothing
 - IntelliJ is weird
 
 [Nix plugin]: https://plugins.jetbrains.com/plugin/8607-nixidea
