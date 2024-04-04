@@ -220,6 +220,7 @@ _\* 10% of it is at least_
 - `terrahoff`
 - `milkyway`
 - `mito`
+- `prefect`
 
 ---
 
@@ -234,11 +235,11 @@ _\* 10% of it is at least_
 
 ---
 
-### Vim/Neovim
+### Vim/Neovim/Helix/Kakoune
 
 - You're already in the terminal.
 - Regular `direnv` and `nix` will do.
-- `vim .` or `nvim .`
+- `vim .` or `nvim .` or `kx .` or `kak .`
 
 ---
 
