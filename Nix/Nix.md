@@ -6,7 +6,7 @@ style: |
   }
 ---
 
-# Development environment as code
+# Devtools as code
 
 ---
 
@@ -20,6 +20,15 @@ style: |
 > mito on my M1
 >
 > &mdash; [Adrian](https://strise.slack.com/archives/C05V95CPJNS/p1709107078009879)
+
+---
+
+### "Works on my machine"
+
+- Version mismatches
+- Missing libraries
+- Missing tooling
+- Misconfigured tooling
 
 ---
 
@@ -78,7 +87,53 @@ style: |
 
 ---
 
+## What we want
+
+- No manual setup
+- Automatically pulls necessary tools
+- Per repo
+- Works on every machine
+
+---
+
+## Docker
+
+---
+
+### Developer experience
+
+---
+
+### Your IDE will not like you
+
+---
+
+### Communication with outside hard
+
+---
+
+## What we want
+
+- No manual setup
+- Automatically pulls necessary tools
+- Per repo
+- Works on every machine
+
+---
+
+## What we want
+
+- No manual setup
+- Automatically pulls necessary tools
+- Per repo
+- Works on every machine
+- Does not require containerization
+
+---
+
 ## Nix
+
+![bg contain right](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nix_snowflake.svg/2364px-Nix_snowflake.svg.png)
 
 ---
 
@@ -89,6 +144,14 @@ style: |
 >
 > &mdash; ChatGPT, when prompted with "Describe Nix in 4 short sentences like a
 > caveman."
+
+---
+
+![bg contain](https://i.redd.it/cg6rhnnw9b581.png)
+
+---
+
+![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/trinity_focus.png?raw=true)
 
 ---
 
