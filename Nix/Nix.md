@@ -303,25 +303,6 @@ nix develop .#vscode
 nix develop .#idea
 ```
 
-<!--
-
----
-
-## Alternative: Nix profiles
-
-- User environment\*
-- Not repo-specific\*
-- Not shareable
-
-```sh
-nix profile install nixpkgs#temurin-bin-17
-nix profile install nixpkgs#scala_2_12
-nix profile install nixpkgs#node_20
-nix profile install nixpkgs#nodePackages.pnpm
-```
-
--->
-
 ---
 
 ## Conclusion
