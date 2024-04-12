@@ -48,10 +48,11 @@ style: |
 
 ### Onboarding
 
-- New hire
-- Wants to work on `mito`
-- Has to set up environment
-- Finds the doc
+As a new hire, I:
+
+- Want to work on `mito`
+- Have to set up my dev environment
+- Find the doc in Notion
 
 ---
 
@@ -87,20 +88,23 @@ style: |
 
 ---
 
+<!-- _class: top-aligned -->
+
 ## What we want
 
 - No manual setup
 - Automatically pulls necessary tools
 - Per repo
 - Works on every machine
+- **Reproducibility**
 
 ---
 
-## Docker
+## Option 1: Docker
 
 ---
 
-### Developer experience
+### Sub-par developer experience
 
 ---
 
@@ -108,9 +112,11 @@ style: |
 
 ---
 
-### Communication with outside hard
+### Communication with outside of the container is hard
 
 ---
+
+<!-- _class: top-aligned -->
 
 ## What we want
 
@@ -118,8 +124,11 @@ style: |
 - Automatically pulls necessary tools
 - Per repo
 - Works on every machine
+- **Reproducibility**
 
 ---
+
+<!-- _class: top-aligned -->
 
 ## What we want
 
@@ -127,11 +136,12 @@ style: |
 - Automatically pulls necessary tools
 - Per repo
 - Works on every machine
+- **Reproducibility**
 - Does not require containerization
 
 ---
 
-## Nix
+## Option 2: Nix
 
 ![bg contain right](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Nix_snowflake.svg/2364px-Nix_snowflake.svg.png)
 
@@ -159,6 +169,12 @@ style: |
 
 ---
 
+### Works on ~~any~~ most machines
+
+Not Windows... But it works in WSL 👍
+
+---
+
 ### nixpkgs
 
 - Largest repository
@@ -169,7 +185,7 @@ style: |
 
 ---
 
-## Nix is many things
+## Nix can do many things
 
 - Build system
 - Configuration tool
@@ -181,7 +197,7 @@ style: |
 
 ---
 
-## Nix is many things
+## Nix can do many things
 
 - ~~Build system~~
 - ~~Configuration tool~~
@@ -193,7 +209,7 @@ style: |
 
 ---
 
-### Similar to\*
+### Similar to
 
 - Poetry
   - Virtual envs
@@ -205,12 +221,6 @@ style: |
 - sdkman
   - `.sdkmanrc`
 
-<!-- markdownlint-disable MD036 -->
-
-_\* 10% of it is at least_
-
-<!-- markdownlint-enable MD036 -->
-
 ---
 
 ## Demo
@@ -220,7 +230,7 @@ _\* 10% of it is at least_
 - `terrahoff`
 - `milkyway`
 - `mito`
-- `prefect`
+- `prefect-strise`
 
 ---
 
@@ -235,11 +245,11 @@ _\* 10% of it is at least_
 
 ---
 
-### Vim/Neovim/Helix/Kakoune
+### Vim, Neovim, Helix, Kakoune
 
 - You're already in the terminal.
 - Regular `direnv` and `nix` will do.
-- `vim .` or `nvim .` or `kx .` or `kak .`
+- `vim .` or `nvim .` or `hx .` or `kak .`
 
 ---
 
@@ -293,6 +303,8 @@ nix develop .#vscode
 nix develop .#idea
 ```
 
+<!--
+
 ---
 
 ## Alternative: Nix profiles
@@ -308,6 +320,8 @@ nix profile install nixpkgs#node_20
 nix profile install nixpkgs#nodePackages.pnpm
 ```
 
+-->
+
 ---
 
 ## Conclusion
@@ -316,7 +330,7 @@ nix profile install nixpkgs#nodePackages.pnpm
 - Ensures consistency between developers
 - Opt-in
   - Without `direnv` and `nix`, `flake.nix` does nothing
-- ~~IDEA is weird~~
+- ~~IntelliJ IDEA is weird~~
 
 [Nix plugin]: https://plugins.jetbrains.com/plugin/8607-nixidea
 [direnv plugin]: https://plugins.jetbrains.com/plugin/15285-direnv-integration
