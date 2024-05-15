@@ -6,17 +6,21 @@
 
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
-      let
-        pkgs = nixpkgs.legacyPackages.${system};
-        server = pkgs.writeShellScriptBin "marp" ''
-          ${pkgs.marp-cli}/bin/marp --server --watch .
-        '';
+      let pkgs = nixpkgs.legacyPackages.${system};
       in {
-        apps.default = {
-          type = "app";
-          program = "${server}/bin/marp";
+        apps = {
+          server = {
+            type = "app";
+            program = "${self.packages.${system}.server}/bin/marp";
+          };
+          default = self.apps.${system}.server;
         };
-        packages = { inherit server; };
+        packages = {
+          server = pkgs.writeShellScriptBin "marp" ''
+            ${pkgs.marp-cli}/bin/marp --server --watch .
+          '';
+          default = self.packages.${system}.server;
+        };
         devShell =
           pkgs.mkShell { buildInputs = with pkgs; [ nixfmt marp-cli docker ]; };
       });
