@@ -56,31 +56,31 @@ As a new hire, I:
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_1.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_1.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_2.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_2.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_3.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_3.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_4.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_4.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_5.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_5.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_6.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_6.png?raw=true)
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/manual_7.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/manual_7.png?raw=true)
 
 ---
 
@@ -161,7 +161,7 @@ As a new hire, I:
 
 ---
 
-![bg contain](https://github.com/Gipphe/presentations/blob/main/Nix/img/trinity_focus.png?raw=true)
+![bg contain](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/trinity_focus.png?raw=true)
 
 ---
 
@@ -193,7 +193,7 @@ Not Windows... But it works in WSL 👍
 - Dev env manager
 - etc.
 
-<!-- ![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true) -->
+<!-- ![bg right cover](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/iceberg.webp?raw=true) -->
 
 ---
 
@@ -205,7 +205,7 @@ Not Windows... But it works in WSL 👍
 - Dev env manager
 - ~~etc.~~
 
-![bg right cover](https://github.com/Gipphe/presentations/blob/main/Nix/img/iceberg.webp?raw=true)
+![bg right cover](https://github.com/Gipphe/presentations/blob/c3a03cb55d4b8ce2a65e699e9e67d79a09a68c75/2024-04-12%20-%20Nix/img/iceberg.webp?raw=true)
 
 ---
 
